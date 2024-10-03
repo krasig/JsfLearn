@@ -12,6 +12,7 @@
 </template>
 
 <script setup>
+const c1=3
 const    color= 'red'
 const isUpperCase=false
 const     myTest='testttttt'
