@@ -2,6 +2,7 @@
 // import HelloWorld from './components/HelloWorld.vue'
 // import TheWelcome from './components/TheWelcome.vue'
 import Myfirstcomponent from "@/components/myfirstcomponent.vue";
+import test from "@/components/test.vue";
 </script>
 
 <template>
@@ -11,10 +12,15 @@ import Myfirstcomponent from "@/components/myfirstcomponent.vue";
     <div class="wrapper">
       <Myfirstcomponent />
     </div>
+
   </header>
 
   <main>
     <TheWelcome />
+    <br/>
+    <div >
+      <test />
+    </div>
   </main>
 </template>
 
