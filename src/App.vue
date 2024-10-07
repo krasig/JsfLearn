@@ -3,6 +3,7 @@
 // import TheWelcome from './components/TheWelcome.vue'
 import Myfirstcomponent from "@/components/myfirstcomponent.vue";
 import test from "@/components/test.vue";
+import vfor from "@/components/vfor.vue";
 </script>
 
 <template>
@@ -21,6 +22,8 @@ import test from "@/components/test.vue";
     <div >
       <test />
     </div>
+    <hr/>
+    <vfor/>
   </main>
 </template>
 
