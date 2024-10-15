@@ -1,9 +1,10 @@
 <script setup>
 // import HelloWorld from './components/HelloWorld.vue'
-// import TheWelcome from './components/TheWelcome.vue'
+import TheWelcome from './components/TheWelcome.vue'
 import Myfirstcomponent from "@/components/myfirstcomponent.vue";
 import test from "@/components/test.vue";
 import vfor from "@/components/vfor.vue";
+import Methods from "@/components/Methods.vue";
 </script>
 
 <template>
@@ -17,8 +18,9 @@ import vfor from "@/components/vfor.vue";
   </header>
 
   <main>
-    <TheWelcome />
+
     <br/>
+    <methods/>
     <div >
       <test />
     </div>

@@ -15,6 +15,13 @@
         key:{{key}} -- value:{{value}}
       </li>
     </ul>
+  <h3> V-for Object props</h3>
+  <ul>
+    <li v-for="(item,key,index) in information" :key="index">
+      {{key}}:{{item}}-(index):{{index}}
+    </li>
+
+  </ul>
 </template>
 
 <script setup>
@@ -33,6 +40,11 @@
     ["key2", "value2"],
     ["key3", "value3"]
   ]);
+  const information={
+    name:"AliBaba",
+    sex:"Male",
+    year:55
+  }
 </script>
 
 <style lang="css" scoped>
