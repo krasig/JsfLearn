@@ -7,6 +7,7 @@ import vfor from "@/components/vfor.vue";
 import Methods from "@/components/Methods.vue";
 import Lifecycle from "@/components/Lifecycle.vue";
 import Styling from "@/components/Styling.vue";
+import Computed from "@/components/Computed.vue";
 </script>
 
 <template>
@@ -20,6 +21,8 @@ import Styling from "@/components/Styling.vue";
   </header>
 
   <main>
+    <Computed/>
+      <hr/>
     <Styling/>
     <hr/>
 <!--  <lifecycle/>-->
