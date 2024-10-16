@@ -8,6 +8,7 @@ import Methods from "@/components/Methods.vue";
 import Lifecycle from "@/components/Lifecycle.vue";
 import Styling from "@/components/Styling.vue";
 import Computed from "@/components/Computed.vue";
+import ComputedSetGet from "@/components/ComputedSetGet.vue";
 </script>
 
 <template>
@@ -21,6 +22,8 @@ import Computed from "@/components/Computed.vue";
   </header>
 
   <main>
+    <ComputedSetGet/>
+    <hr/>
     <Computed/>
       <hr/>
     <Styling/>
