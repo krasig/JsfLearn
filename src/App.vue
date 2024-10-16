@@ -10,6 +10,7 @@ import Styling from "@/components/Styling.vue";
 import Computed from "@/components/Computed.vue";
 import ComputedSetGet from "@/components/ComputedSetGet.vue";
 import Watcher from "@/components/Watcher.vue";
+import Asynchronous from "@/components/Asynchronous.vue";
 </script>
 
 <template>
@@ -23,6 +24,8 @@ import Watcher from "@/components/Watcher.vue";
   </header>
 
   <main>
+    <Asynchronous/>
+    <ht/>
     <Watcher/>
     <hr/>
     <ComputedSetGet/>
