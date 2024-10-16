@@ -5,6 +5,7 @@ import Myfirstcomponent from "@/components/myfirstcomponent.vue";
 import test from "@/components/test.vue";
 import vfor from "@/components/vfor.vue";
 import Methods from "@/components/Methods.vue";
+import Lifecycle from "@/components/Lifecycle.vue";
 </script>
 
 <template>
@@ -18,8 +19,8 @@ import Methods from "@/components/Methods.vue";
   </header>
 
   <main>
-
-    <br/>
+  <lifecycle/>
+    <hr/>
     <methods/>
     <div >
       <test />
