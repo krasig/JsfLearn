@@ -9,6 +9,7 @@ import Lifecycle from "@/components/Lifecycle.vue";
 import Styling from "@/components/Styling.vue";
 import Computed from "@/components/Computed.vue";
 import ComputedSetGet from "@/components/ComputedSetGet.vue";
+import Watcher from "@/components/Watcher.vue";
 </script>
 
 <template>
@@ -22,6 +23,8 @@ import ComputedSetGet from "@/components/ComputedSetGet.vue";
   </header>
 
   <main>
+    <Watcher/>
+    <hr/>
     <ComputedSetGet/>
     <hr/>
     <Computed/>
