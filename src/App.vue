@@ -6,11 +6,12 @@ import test from "@/components/test.vue";
 import vfor from "@/components/vfor.vue";
 import Methods from "@/components/Methods.vue";
 import Lifecycle from "@/components/Lifecycle.vue";
+import Styling from "@/components/Styling.vue";
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+
 
     <div class="wrapper">
       <Myfirstcomponent />
@@ -19,7 +20,9 @@ import Lifecycle from "@/components/Lifecycle.vue";
   </header>
 
   <main>
-  <lifecycle/>
+    <Styling/>
+    <hr/>
+<!--  <lifecycle/>-->
     <hr/>
     <methods/>
     <div >
@@ -31,7 +34,8 @@ import Lifecycle from "@/components/Lifecycle.vue";
 </template>
 
 <style scoped>
-header {
+@import "@/styles/global.scss";
+/*header {
   line-height: 1.5;
 }
 
@@ -56,5 +60,5 @@ header {
     place-items: flex-start;
     flex-wrap: wrap;
   }
-}
+}*/
 </style>
