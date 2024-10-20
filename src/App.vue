@@ -20,24 +20,24 @@ import Exercise206 from "@/components/Exercise206.vue";
   <main>
     <Exercise206/>
     <hr/>
-    <Asynchronous/>
-    <ht/>
-    <Watcher/>
-    <hr/>
-    <ComputedSetGet/>
-    <hr/>
-    <Computed/>
-      <hr/>
-    <Styling/>
-    <hr/>
+<!--    <Asynchronous/>-->
+<!--    <ht/>-->
+<!--    <Watcher/>-->
+<!--    <hr/>-->
+<!--    <ComputedSetGet/>-->
+<!--    <hr/>-->
+<!--    <Computed/>-->
+<!--      <hr/>-->
+<!--    <Styling/>-->
+<!--    <hr/>-->
 <!--  <lifecycle/>-->
-    <hr/>
-    <methods/>
-    <div >
-      <test />
-    </div>
-    <hr/>
-    <vfor/>
+<!--    <hr/>-->
+<!--    <methods/>-->
+<!--    <div >-->
+<!--      <test />-->
+<!--    </div>-->
+<!--    <hr/>-->
+<!--    <vfor/>-->
   </main>
 </template>
 
