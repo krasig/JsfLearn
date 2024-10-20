@@ -12,13 +12,20 @@ import ComputedSetGet from "@/components/ComputedSetGet.vue";
 import Watcher from "@/components/Watcher.vue";
 import Asynchronous from "@/components/Asynchronous.vue";
 import Exercise206 from "@/components/Exercise206.vue";
+import Props from "@/components/Props.vue";
+import {ref} from "vue";
+
+const input=ref(null);
+
+
 </script>
 
 <template>
 
-
+<input v-model="input"/>
   <main>
-    <Exercise206/>
+    <props greeting="Hello" :who="input"/>
+<!--    <Exercise206/>-->
     <hr/>
 <!--    <Asynchronous/>-->
 <!--    <ht/>-->
