@@ -27,12 +27,16 @@ const config={
 
 const testprop=ref('aaaa');
 
+const inputEvent=(e)=>{
+  console.log(e);
+  testprop.value=e;
+}
 </script>
 
 <template>
   <main>
     <input v-model="testprop" />{{testprop}}
-    <Props2 :kgtext="testprop" />
+    <Props2 :kgtext="testprop" v-on:myInputEvent="inputEvent"/>
 <!--    <countable/> -->
 <!--    <props greeting="Hello" :who="input"/>-->
 <!--    <props-validate content="aaaa" :items="1" :config="config"/>-->

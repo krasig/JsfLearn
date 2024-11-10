@@ -10,7 +10,7 @@ const props = defineProps({
 
 <template>
 {{kgtext}}
-  <input v-bind:value="kgtext" />
+  <input v-bind:value="kgtext" v-on:keyup="$emit('myInputEvent', $event.target.value)"/>
 </template>
 
 <style scoped>
