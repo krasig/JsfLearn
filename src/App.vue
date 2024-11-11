@@ -17,6 +17,7 @@ import {computed, ref} from "vue";
 import PropsValidate from "@/components/PropsValidate.vue";
 import Countable from "@/components/Countable.vue";
 import Props2 from "@/components/Props2.vue";
+import Composalbe from "@/components/Composalbe.vue";
 
 const input=ref(null);
 
@@ -35,8 +36,9 @@ const inputEvent=(e)=>{
 
 <template>
   <main>
-    <input v-model="testprop" />{{testprop}}
-    <Props2 :kgtext="testprop" v-on:myInputEvent="inputEvent"/>
+    <Composalbe/>
+<!--   <input v-model="testprop" />{{testprop}}
+   <Props2 :kgtext="testprop" v-on:myInputEvent="inputEvent"/>-->
 <!--    <countable/> -->
 <!--    <props greeting="Hello" :who="input"/>-->
 <!--    <props-validate content="aaaa" :items="1" :config="config"/>-->
